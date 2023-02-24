@@ -35,3 +35,12 @@ lista_animal.remove("Boi")
 #nova_lista = lista_animal * 3
 #print(nova_lista)
 print(lista_animal)
+
+#sort() - lista em ordem alfabetica
+lista_desordem = ["Yasmin", "Ana", "Fernanda", "Carolina"]
+lista_desordem.sort()
+print(lista_desordem)
+
+#reverse() - lista em desordem alfabetica
+lista_desordem.reverse()
+print(lista_desordem)
