@@ -1,12 +1,20 @@
 class Calculadora:
-    def_init_(self, a, b):
-        self.a = a
-    def soma (a,b):
-        return a + b
+    def __init__(self, num1, num2):
+        self.valor_a = num1
+        self.valor_b = num2
+
+    def soma (self):
+        return self.valor_a + self.valor_b
     
-    def sub (a,b):
-        return a - b
+    def sub (self):
+        return self.valor_a - self.valor_b
     
-    def mult (a,b):
-        return a * b
+    def mult (self):
+        return self.valor_a * self.valor_b
+
+calculadora = Calculadora(10,2)
+print(calculadora.soma())
+print(calculadora.sub())
+print(calculadora.mult())
+
 
