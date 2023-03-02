@@ -1,4 +1,4 @@
-from Television import Televisao
+from Televisoes import Televisao
 #from Calculator import Calculo
 from Contador_palavras import contador_letras #pode importar classes e métodos tmb
 
